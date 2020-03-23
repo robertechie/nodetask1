@@ -1,0 +1,70 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+p{
+    font-weight: bold;
+}
+
+body{
+    height: 1.4;
+    font-family: 'Baloo Chettan 2', cursive;
+}
+label{
+   
+    font-size: 1.2rem;
+}
+label,input[type='submit'], textarea{
+    display: block;
+    align-self: flex-start;
+    line-height: 1.5;
+    
+}
+input[type='submit']{
+    padding:0.55rem 1rem;
+    outline: none;
+    background-color: #250769;
+    border: none;
+    border-radius: 5px;
+    color:#fff;
+    float: right;
+}
+input[type='submit']:hover{
+    opacity: 0.9;
+}
+
+textarea{
+    width: 100%;
+    border-radius: 3px;
+    border-color: #4852db;
+    margin-top: 0;
+    margin: 10px 0;
+    outline:none;
+    padding: 0.55em 1rem;
+    height: 140px; 
+   
+}
+
+textarea:focus{
+    border-color: #cc93f3f3;
+    
+ 
+}
+header{
+    background-color: #250769;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+form{
+    padding:1rem;
+    background-color:#fff;
+    border-radius: 3.5px;
+    width:750px;
+    height:auto;
+    overflow: hidden;
+   
+}
